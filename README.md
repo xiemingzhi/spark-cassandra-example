@@ -34,6 +34,9 @@ INSERT INTO users (firstname, lastname, age, email, city) VALUES ('Jane', 'Doe',
  
 INSERT INTO users (firstname, lastname, age, email, city) VALUES ('Rob', 'Byrne', 24, 'robbyrne@email.com', 'San Diego');
 
+Also modify the SimpleApp.scala with the ip/hostname of your spark/cassandra instance.
+i.e Change 'localhost'.
+
 ## Building the project
 
 This project is built using sbt [Scala SBT](http://www.scala-sbt.org/documentation.html).
